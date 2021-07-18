@@ -1,0 +1,119 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="E:\Ayush\CODING\code\Projects\Resistor Colour Coder\ResistorColourCoding.prj" location="E:\Ayush\CODING\code\Projects\Resistor Colour Coder" name="ResistorColourCoding" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ResistorColourCoding</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Ayushman Rayaguru</param.authnamewatermark>
+    <param.email>ayushmanrayaguru@outlook.com</param.email>
+    <param.company>PICT</param.company>
+    <param.summary>This app converts resistance to colour codes and colour codes to resistance.</param.summary>
+    <param.description>This is GUI based sofware.
+Only for educational-purpose.
+It requires matlab runtime for functioning.</param.description>
+    <param.screenshot>${MATLAB_ROOT}\bin\ESMP\Adobe_Post_20210716_1732380.7439727574510031.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\PICT\ResistorColourCoding\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\ResistorColourCoding\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\ResistorColourCoding\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\ResistorColourCoding\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\ResistorColourCoding</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${MATLAB_ROOT}\bin\ESMP\ESMP_mini_project.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${MATLAB_ROOT}\bin\ESMP\esm.jpg</file>
+      <file>${MATLAB_ROOT}\bin\ESMP\ESMP_mini_project.fig</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\ResistorColourCoding\for_testing" name="ResistorColourCoding.exe" optional="false">E:\Ayush\CODING\code\Projects\Resistor Colour Coder\ResistorColourCoding\for_testing\ResistorColourCoding.exe</file>
+      <file location="${PROJECT_ROOT}\ResistorColourCoding\for_testing" name="splash.png" optional="false">E:\Ayush\CODING\code\Projects\Resistor Colour Coder\ResistorColourCoding\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\ResistorColourCoding\for_testing" name="readme.txt" optional="true">E:\Ayush\CODING\code\Projects\Resistor Colour Coder\ResistorColourCoding\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\SETUP\MATLAB 2018b\Matlab 2018b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
